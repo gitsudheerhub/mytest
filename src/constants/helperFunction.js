@@ -1,0 +1,1 @@
+export const filterCountries = (countries, value) => countries.filter(c=> c.search(value)> -1); 
